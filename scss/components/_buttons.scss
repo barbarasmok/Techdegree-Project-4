@@ -1,0 +1,10 @@
+.btn {
+    width: 100%;
+    color: $white;
+    margin-top: 15px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    @include bg-colors($btn-colors);
+}
