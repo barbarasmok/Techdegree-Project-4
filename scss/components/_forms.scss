@@ -1,0 +1,20 @@
+.form {
+   flex-basis: 100%; 
+}
+
+.input {
+    display: block;
+    width: 94%;
+    margin: 10px auto 0;
+    padding: 10px;
+    border-bottom: 5px solid $color-border;
+}
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    left: -10000px;
+    overflow: hidden;
+}
