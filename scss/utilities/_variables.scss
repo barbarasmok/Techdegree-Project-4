@@ -3,6 +3,7 @@
 $font-google: 'href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
 $font-family-primary: 'Lato', Helvetica, sans-serif;
 
+
 //Font weight
 
 $font-weight-thin: 100;
@@ -10,6 +11,7 @@ $font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 $font-weight-bolder: 900;
+
 
 // Colors
 
@@ -45,3 +47,22 @@ $btn-colors: (
 	warning     : $green,
 	info        : $fuscia
 );
+
+
+// Fonts
+$font-stack-primary: 16px;
+$font-stack-secondary: 12px;
+$font-lineheight: 24px;
+
+
+// Layout
+$max-width: 1000px;
+$gutter: 10px;
+
+
+// Breakpoints
+$break-xs: 575px;
+$break-s: 576px;
+$break-m: 768px;
+$break-l: 992px;
+
