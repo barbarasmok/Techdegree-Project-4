@@ -1,12 +1,47 @@
 // Font stacks
 
-$font-google            : 'href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
-$font-family--primary   : 'Lato', Helvetica, sans-serif;
+$font-google: 'href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
+$font-family-primary: 'Lato', Helvetica, sans-serif;
 
 //Font weight
 
-$font-weight--thin       :100;
-$font-weight--light      :300;
-$font-weight--normal     :400;
-$font-weight--bold       :700;
-$font-weight--bolder     :900;
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: 900;
+
+// Colors
+
+$white: #fff;
+$grey: #777;
+$cyan: #58e1c1;
+$blue: #51ddfc;
+$teal: #80e8d1;
+$pomelo: #e4757a;
+$fuscia: #fd7856;
+$purple: #927bc1;
+$green: #63cc82;
+
+$color-primary: $grey;
+$color-nav: $white;
+$color-nav-bg: $cyan;
+$color-cyan: $cyan;
+$color-head-primary: $cyan;
+$color-head-secondary: $grey;
+$color-links: $blue;
+$color-links-hover: darken ($blue, 25%);
+$color-links-visited: lighten ($blue, 30%);
+$color-links-activated: lighten ($blue, 15%);
+$color-border: $cyan;
+
+
+// Buttons
+
+$btn-colors: (
+    default     : $blue,
+	success     : $pomelo,
+	error       : $purple,
+	warning     : $green,
+	info        : $fuscia
+);
