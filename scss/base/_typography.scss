@@ -1,0 +1,23 @@
+* {
+    font-family: $font-family--primary;
+    color: $color-primary;
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 1.45em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headline-primary {
+    color: $color-headline-primary;
+    margin-left: em(10px);
+}
+
+.headline-secondary {
+    font-weight: $font-weight--light;
+    color: $color-headline-secondary;
+}
