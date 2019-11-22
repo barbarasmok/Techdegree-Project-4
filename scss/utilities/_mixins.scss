@@ -1,0 +1,16 @@
+@mixin bg-colors($map) {
+    @each $theme, $color in $map {
+        &.#{$theme} {
+            background-color: $color;
+        }
+        &.#{$theme}:hover {
+            background-color: lighten($color, 15%);
+            transition: background-color 0.5sec ease-in;
+        }
+    }
+}
+
+@mixin mq {
+    display: block;
+    margin: auto;
+}
